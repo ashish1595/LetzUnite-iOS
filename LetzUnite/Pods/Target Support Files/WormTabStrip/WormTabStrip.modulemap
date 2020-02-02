@@ -1,0 +1,6 @@
+framework module WormTabStrip {
+  umbrella header "WormTabStrip-umbrella.h"
+
+  export *
+  module * { export * }
+}

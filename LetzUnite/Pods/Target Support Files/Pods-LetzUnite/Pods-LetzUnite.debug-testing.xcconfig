@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/IQActionSheetPickerView" "${PODS_CONFIGURATION_BUILD_DIR}/ImageSlideshow" "${PODS_CONFIGURATION_BUILD_DIR}/KSToastView" "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit" "${PODS_CONFIGURATION_BUILD_DIR}/RNCryptor" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/WormTabStrip" "${PODS_CONFIGURATION_BUILD_DIR}/ZCAnimatedLabel"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/IQActionSheetPickerView/IQActionSheetPickerView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ImageSlideshow/ImageSlideshow.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/KSToastView/KSToastView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/RNCryptor/RNCryptor.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/WormTabStrip/WormTabStrip.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/ZCAnimatedLabel/ZCAnimatedLabel.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "Alamofire" -framework "IQActionSheetPickerView" -framework "ImageSlideshow" -framework "KSToastView" -framework "PromiseKit" -framework "RNCryptor" -framework "SwiftyJSON" -framework "WormTabStrip" -framework "ZCAnimatedLabel"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods

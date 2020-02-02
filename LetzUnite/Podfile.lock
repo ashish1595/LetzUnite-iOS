@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.7.2)
+  - ImageSlideshow (1.6.1):
+    - ImageSlideshow/Core (= 1.6.1)
+  - ImageSlideshow/Core (1.6.1)
+  - IQActionSheetPickerView (2.0.0)
+  - KSToastView (0.5.7)
+  - PromiseKit (4.5.2):
+    - PromiseKit/Foundation (= 4.5.2)
+    - PromiseKit/QuartzCore (= 4.5.2)
+    - PromiseKit/UIKit (= 4.5.2)
+  - PromiseKit/CorePromise (4.5.2)
+  - PromiseKit/Foundation (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.2):
+    - PromiseKit/CorePromise
+  - RNCryptor (5.0.3)
+  - SwiftyJSON (3.1.4)
+  - WormTabStrip (1.0.1)
+  - ZCAnimatedLabel (0.0.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.3)
+  - ImageSlideshow
+  - IQActionSheetPickerView
+  - KSToastView (= 0.5.7)
+  - PromiseKit (~> 4.0)
+  - RNCryptor (~> 5.0)
+  - SwiftyJSON (~> 3.1.4)
+  - WormTabStrip (~> 1.0)
+  - ZCAnimatedLabel
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ImageSlideshow
+    - IQActionSheetPickerView
+    - KSToastView
+    - PromiseKit
+    - RNCryptor
+    - SwiftyJSON
+    - WormTabStrip
+    - ZCAnimatedLabel
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  ImageSlideshow: f0f33e1a20668e83d77f5fb7729e4ae4437c0759
+  IQActionSheetPickerView: 7986373d485f144589eec2c7c3014645c885f38b
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
+  RNCryptor: c93d19029dcf7ff160aca0f24d6c9e7b0d82f664
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  WormTabStrip: 5f3d8021fb3cc56cb90c1eaf01cdcd6a9fbdf59f
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
+
+PODFILE CHECKSUM: c2b0d855b448f2a93ec6fd7395e465af8ab92af5
+
+COCOAPODS: 1.5.3
